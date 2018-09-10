@@ -63,10 +63,34 @@
 <script src=""></script>
 <video src="http://player.youku.com/embed/XMzgxNjI1NjUwNA==" width="320" height="200" controls preload></video> -->
 
+<style type="text/css">
+.vid-wrap{
+    width:100%;background: #000;
+    position:relative;
+    padding-bottom:56.25%;    /*需要用padding来维持16:9比例,也就是9除以16*/
+    height: 0;
+}
+.vid-wrap video{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+</style>
+
+<div class="vid-wrap">
+  <h1>视频介绍-简单学堂</h1>
+  <video controls autoplay loop>
+  <source src="mobizen_20180908_194026.mp4" controls autobuffer>
+    </video>
+</div>
+
+
 <div>
   <h1>div分的dgh </h1>
 <script src="https://jiandanxuetang.github.io/html5media.min.js"></script>
-<video class="video" src="mobizen_20180908_194026.mp4" controls autobuffer></video> 
+<video class="video" src="mobizen_20180908_194026.mp4" width="320" height="200" controls autobuffer></video> 
 </div>
 
 
