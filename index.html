@@ -17,7 +17,26 @@
 
   <!-- 修改成功：网页名字 -->
   <title>简单学堂丨微信:1181815197</title>
+  
+  <!-- 开始：标题滚动
+  参考网址：http://suo.im/4DIyUz -->
+  <script language=javascript >
+  var text=document.title
+  var timerID
+  function newtext() {
+              clearTimeout(timerID)                  
+              document.title=text.substring(1,text.length)+text.substring(0,1)
+              text=document.title.substring(0,text.length)
+
+              // 设置滚动时间400=用4s滚动完
+              timerID = setTimeout("newtext()", 400)
+  }
+  </script>
+  <!-- 结束：让标题滚动 -->
+
 </head>
+
+<body bgcolor="#ffffff" onload="newtext()">
 
 
 <!-- 链接到独立出去的css -->
