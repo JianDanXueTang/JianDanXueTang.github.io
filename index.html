@@ -71,11 +71,80 @@
 
             <!-- 页面中间的div（自适应宽度） -->
             <div class="page_middle">
+
+
+                <!-- 底部固定栏footer -->
+
+                <div class="top">
+          
+                </div>
+                
+                <div class="header" align="center">                
+                   <marquee direction="left">LEFT</marquee>
+                </div> 
+                
+                <!-- ↓顶部固定栏的css -->
+                  <style type="text/css">
+                    .top {
+                          height: 49px;
+                          background-color: transparent;
+                    }
+                    .header {
+                        /*background: #009c39;*/
+                        background:#00B0F0;
+                        /*background-color: transparent; */
+                        opacity:0.8;
+                        padding: 15px 0 15px 0;
+                        width: 100%;
+                        position: fixed;
+                        left: 0;
+                        top: 0;
+                    }
+                    .header ul {
+                        底部固定导航栏的高度
+                        height: px;
+                        
+                        margin:0px;
+                        padding:0px;                        
+                    }
+                    .header ul li {                        
+                        float: left;
+                        width: 20%;
+                        text-align: center;
+                        list-style-type: none;
+
+                        margin: 0px;
+                        padding: 0px;
+                    }
+                    .header ul li span {
+
+                        /*下面注释的这2行，可以显示固定栏的真实布局结构*/
+                    /*      border: 2px solid #999; 
+                          margin: 0 0 -2px -2px;*/
+                        
+                        display: block;
+                        color: #fff;
+                        font-weight:bold;
+                        font-size: 20px;
+                        font-family: "微软雅黑";
+                        line-height: 22px;
+                    }
+
+                    .header ul li a {
+                      /*隐藏下划线*/
+                        text-decoration:none ; 
+                    }
+
+                    </style>
+                    <!-- 结束：顶部固定栏 -->
+
+
+
             
                 <div class="top">
                   <!-- 顶部广告-区间<br> -->
-                
-                 
+
+               
                   <!-- 开始：插入视频测试 -->  
                   <!-- 视频1：开始 -->
                   <h1>简单学堂-视频介绍</h1>   
@@ -178,7 +247,7 @@
 
                 <!-- ——————分隔线—————— -->
 
-                <!-- 底部固定栏footer -->
+                <!-- 开始：底部固定栏footer -->
                 <div class="footer" align="center">                
   
                    <ul>
@@ -270,7 +339,7 @@
                     }
 
                     </style>
-
+                    <!-- 结束：底部固定栏 -->
 
 
             <!-- page_middle 结束的div -->
