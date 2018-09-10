@@ -60,19 +60,37 @@
                  
                   <!-- 开始：插入视频测试 -->
 <div>
+<h2>0 </h2>
 <video width="352" height="264" controls autobuffer>
     <source src="http://player.youku.com/embed/XMzgxNjI1NjUwNA=="></source>
 </video>
 </div>
+
 <div>
+<h2>1 </h2>
 <video autoplay loop id="bgvid">
     <source src="http://player.youku.com/embed/XMzgxNjI1NjUwNA==">
 </video>
 </div>
-<div>\
+
+<div>
 <h2>ad </h2>
 <iframe src="http://player.youku.com/embed/XMzgxNjI1NjUwNA==" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
+
+<!-- 播放器代码开始 -->
+<div id="xPlayer" align="center">
+<h2>3 </h2>
+<object id="MediaPlayer" width="406" height="68" classid="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6" type="application/x-oleobject">
+<param name="AutoStart" value="1" />
+<param name="PlayCount" value="1" />
+<param name="EnableContextMenu" value="0" />
+<param name="Volume" value="100" />
+<embed src="你的路径/播放的音乐文件名称.后缀名" name="MediaPlayer" type="video/x-ms-wmv" width="406" height="68" autostart="1" showcontrols="1" allowscan="1" playcount="100" enablecontextmenu="0"></embed>
+</object>
+</div>
+<!-- 播放器代码结束 -->
+
 
 <div>
   <p>AAAAAAAbCAdfadf1211 反倒是fdaAAAAAAA</p>
