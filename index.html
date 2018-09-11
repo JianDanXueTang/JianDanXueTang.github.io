@@ -82,6 +82,19 @@
                 <div class="header" align="center">                
                    <marquee direction="left">LEFT</marquee>
                 </div> 
+
+                <script language=javascript >
+  var text=document.marquee
+  var timerID
+  function newtext() {
+              clearTimeout(timerID)                  
+              document.marquee=text.substring(1,text.length)+text.substring(0,1)
+              text=document.marquee.substring(0,text.length)
+
+              // 设置滚动时间450=用4.5s滚动完
+              timerID = setTimeout("newtext()", 200)
+  }
+  </script>
                 
                 <!-- ↓顶部固定栏的css -->
                   <style type="text/css">
