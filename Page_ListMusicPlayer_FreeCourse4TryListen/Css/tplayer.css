@@ -553,7 +553,8 @@ body {
 /* playlist style*/
 
 #playlist{
-	background:#3EC3D5;
+	/*background:#3EC3D5;*/
+	background:#3CB371;
 	color:#fff;
 	/*width:960px;*/
 	width:100%;
