@@ -110,8 +110,9 @@ body {
 
 #t_title_info{
 	position:relative;
-	color:#555;
-	font-size:1.75em;
+	/*color:#555;*/
+	color:#CD5C5C;
+	font-size:1.25em;
 	text-align:center;
 	line-height:1.85em;
 	white-space: nowrap;
