@@ -111,7 +111,8 @@ body {
 #t_title_info{
 	position:relative;
 	/*color:#555;*/
-	color:#CD5C5C;
+	/*color:#CD5C5C;*/
+	color:red;
 	font-size:1.25em;
 	text-align:center;
 	line-height:1.85em;
