@@ -28,19 +28,24 @@
         
         <!-- 顶部：播放时音频信息 -->
     	<div id="t_top">
-    		<div id="t_title_info" >
+    		<div id="t_title_info"  bgcolor="#F0E68C">
                 <!-- 使用marquee实现信息滚动 -->
                 <!-- marquee设置速度：https://zhidao.baidu.com/question/524085289703982965.html -->
-                <!-- <marquee 
-                direction="left" 
-                behavior="alternate" 
-                loop="999" 
-                scrollamount="5"
-                bgcolor="#F0E68C"
-                > -->
-        			<span bgcolor="#F0E68C" class="artist">999，13号，正在加载，稍等片刻  | 简单学堂，唯一微信：1181815197</span>
-        			<span bgcolor="#F0E68C" class="title"></span>
-                <!-- </marquee> -->
+                <marquee direction="left" behavior="alternate" loop="999" scrollamount="5">
+             
+        			<span  class="artist">
+                         999，13号，正在加载，稍等片刻  | 简单学堂，唯一微信：1181815197
+                    </span>
+        			<span  class="title"></span>
+
+                    <style type="text/css">
+                        span{ 
+                            /*span自动换行*/
+                            display:block;
+                            background-color: #F0E68C;
+                        }
+                     </style>
+                </marquee>
     		</div>
 
 <!--             <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
