@@ -125,17 +125,14 @@
                     <!-- <video controls（控制器） autoplay（自动播放） loop（循环播放）> -->
 
                     <!-- 设置播放器带有控制器，设置视频预览图 -->
-                    <video controls poster="https://jiandanxuetang.github.io/img/头像：简单学堂.jpg">
+                    <!-- <video controls poster="https://jiandanxuetang.github.io/img/头像：简单学堂.jpg"> -->
                        <!-- <source src="https://jiandanxuetang.github.io/video/mobizen_20180908_194026.mp4" controls autobuffer> -->
-
-                       <!-- 优酷地址 -->
-                       <!-- <iframe  src='http://player.youku.com/embed/XMzgxNjI1NjUwNA==' frameborder=0 'allowfullscreen'></iframe> -->
-
-                       <!-- <source src="http://player.youku.com/embed/XMzgxNjI1NjUwNA==" controls autobuffer> -->
-                       
+                     
                        <!-- 网盘地址 -->
-                       <source src="http://suo.im/58DObO" controls autobuffer>
-                    </video>
+                       <!-- <source src="http://suo.im/58DObO" controls autobuffer> -->
+                    <!-- </video> -->
+
+                    <iframe height=498 width=510 src='http://player.youku.com/embed/XMzgxNjI1NjUwNA==' frameborder=0 'allowfullscreen'></iframe>
 
                   </div>
 
@@ -150,7 +147,7 @@
                       padding-bottom:56.25%;    /*需要用padding来维持16:9比例,也就是9除以16*/
                       height: 0;
                   }
-                  .vid-wrap video{
+                  .vid-wrap iframe{
                       position: absolute;
                       top:0;
                       left: 0;
