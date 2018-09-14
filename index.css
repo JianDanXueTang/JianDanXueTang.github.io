@@ -89,7 +89,9 @@
 
       }
       /*底部*/
-      .bottom {background-color: teal;}  
+      .bottom {
+        /*background-color: teal;*/
+      }  
   
   /*不太懂：貌似是浏览器兼容用的*/
   .clearDiv {clear:both;}  
